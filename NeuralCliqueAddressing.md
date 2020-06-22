@@ -48,3 +48,7 @@ New ideas / things to explore are in bold
 
 - Neural visualisation for simulations?
 - Number of cycles
+
+## References
+
+- http://www.paper.edu.cn/scholar/showpdf/MUT2IN2IMTj0YxeQh
