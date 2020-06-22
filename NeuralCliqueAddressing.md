@@ -17,7 +17,7 @@ New ideas / things to explore are in bold
   - Eg, I index milotic by "Pokemon / Water / Non-starter / Non-Firstgen / Evolution / Beautiful / very rare / snake / big", can find in the "Pokemon/Digimon collection with indexes on water / non - first gen / beautiful / very rare"
 - Common language only uses 500 words - not that many concepts (2k?)
   - Link between mutliple languages and internal representation?
-- Centralized / decentralized philospshy of large systems (bitcoin / internet / ...)
+- Centralized / decentralized philospshy of large systems (bitcoin / internet / social groups / ...)
 
 ## Neural clique networks / Cycling through data
 
@@ -32,9 +32,14 @@ New ideas / things to explore are in bold
   - Instead of a fully evenly populated clique model, which starts to catastrophically fail when too much data is put in, think of cliques of different sizes?
     - Similarity to centralized / decentralized concept
     - Smaller cliques are stronger indexes
-    - With the previous model of inihibitng everything not connected to the first data , it eliminates a lot of noise
+    - With the previous model of inihibitng everything not connected to the first data , it eliminates a lot of noise. Eg strongly connected nodes that aren't initially connected to anything won't create the noise they would
+    - Conversely, strong nodes need to be chosen first. Finding a clique based only on weak nodes (large cliques) sucks because strong nodes not initially chosen will give a lot of noise
+    - Error correcting can happen in larger cliques
+    - Less connections needed: not as many connections between large cliques needed
     - More consistent with the k of n clusters instead of the k of k clusters / and with external addressing
     - Clusters can grow / reduce based on needs (but it doesn't fit)
+    - Strong nodes can be categories / weak nodes special characteristics that discriminate
+    - In general brainspace with tons of clusters, We can limit the clusters activated to reduce the scope - more research needed
   - Successful approx to enable / inhibit microcolumns
 - Cliques don't have to be k of k, they can be k of n
 - Indexing: each conceptual "item" still need to have an index that immediately refers to it. Those indexes can be used in cliques. For example index to refer to color blue can be used in addressing the sky
